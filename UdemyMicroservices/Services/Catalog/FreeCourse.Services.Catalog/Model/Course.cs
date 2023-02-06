@@ -3,7 +3,7 @@ using MongoDB.Bson;
 
 namespace FreeCourse.Services.Catalog.Model
 {
-    public class Course
+    internal class Course
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]

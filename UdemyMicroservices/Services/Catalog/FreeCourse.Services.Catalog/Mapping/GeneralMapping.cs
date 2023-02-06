@@ -4,15 +4,17 @@ using FreeCourse.Services.Catalog.Model;
 
 namespace FreeCourse.Services.Catalog.Mapping
 {
-    public class GeneralMapping:Profile
+    internal class GeneralMapping:Profile
     {
         public GeneralMapping()
         {
             CreateMap<Course,CourseDto>().ReverseMap();
-            CreateMap<Course, CourceCreatDto>().ReverseMap();
+            CreateMap<Course, CourceCreateDto>().ReverseMap();
             CreateMap<Course, CourceUpdateDto>().ReverseMap();
 
             CreateMap<Category, CategoryDto>().ReverseMap();
+            CreateMap<Category, CategoryCreateDto>().ReverseMap();
+            CreateMap<Category, CategoryUpdateDto>().ReverseMap();
             CreateMap<Feature, FeatureDto>().ReverseMap();
 
 
