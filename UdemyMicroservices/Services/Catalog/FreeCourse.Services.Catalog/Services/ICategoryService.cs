@@ -3,7 +3,7 @@ using FreeCourse.Services.Catalog.Dtos;
 
 namespace FreeCourse.Services.Catalog.Services
 {
-    internal interface ICategoryService
+    public interface ICategoryService
     {
         Task<Response<List<CategoryDto>>> GetAllAsync();
         Task<Response<CategoryDto>> CreateAsync(CategoryCreateDto categoryCreateDto);
