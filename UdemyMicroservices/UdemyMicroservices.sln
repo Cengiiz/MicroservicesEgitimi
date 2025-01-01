@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{44FC9637-FB48-47F5-83F8-999D30C4366E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCource.Shared-3.1", "FreeCource.Shared-3.1\FreeCource.Shared-3.1.csproj", "{D0E014A9-E785-404B-8C30-CC57C5F09D7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{44FC9637-FB48-47F5-83F8-999D30C4366E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44FC9637-FB48-47F5-83F8-999D30C4366E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44FC9637-FB48-47F5-83F8-999D30C4366E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E014A9-E785-404B-8C30-CC57C5F09D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E014A9-E785-404B-8C30-CC57C5F09D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E014A9-E785-404B-8C30-CC57C5F09D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E014A9-E785-404B-8C30-CC57C5F09D7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{8C68510B-4FDD-4421-A5F5-4CA7ABA9AC75} = {2D0B5E29-E0E0-4CE0-B3B9-07F897254FBF}
 		{CD4CEBB0-C782-446E-A58A-E5E772F30C08} = {7293F48E-5674-4735-B9CA-B2A0D9C70813}
 		{44FC9637-FB48-47F5-83F8-999D30C4366E} = {EEA5D0C1-0598-4824-AAE5-6ACBF0862541}
+		{D0E014A9-E785-404B-8C30-CC57C5F09D7C} = {7293F48E-5674-4735-B9CA-B2A0D9C70813}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEA6EE39-E014-48AD-9E59-638857416BD5}
